@@ -10,12 +10,13 @@ body {
     display: block;
     text-align: right;
   }
-  .aaa img {
+  aaa img {
     width: 100%;
   }
-  .aaa .more_inf {
+  .aaa .more-inf {
     font-family: fantasy, cursive;
   }
+
   @media (max-width:768px) {
   .aaa { text-align: center;
   }
@@ -130,10 +131,11 @@ body {
   ul li input[type="text"] {
     display:none
   }
-  ul li.editMode input[type="text"] {
-    display:inline-block;
-    width:224px
-  }
-  ul li.editMode label {
-    display:none;
-  }
+  ul li.edit-mode input[type=text] {
+  display:inline-block;
+  width:224px
+}
+
+ul li.edit-mode label {
+  display:none;
+}
