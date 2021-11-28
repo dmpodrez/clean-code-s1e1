@@ -10,10 +10,12 @@ body {
     display: block;
     text-align: right;
   }
-  .header-wrapper img {
+  .header-wrapper 
+  img {
     width: 100%;
   }
-  .header-wrapper .more-inf {
+  .header-wrapper 
+  .more-inf {
     font-family: fantasy, cursive;
   }
   @media (max-width:768px) {
@@ -108,12 +110,14 @@ body {
   .input-task {
     width: 226px;
   }
-  .general-btn.delete-note img {
+  .delete-note 
+  img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
   }
-  .general-btn.delete-note img:hover {
+  .delete-note 
+  img:hover {
     transform: rotateZ(0);
   }
   /* Completed */
@@ -132,6 +136,7 @@ body {
     width: 224px;
   }
   
-  .edit-mode .label-li {
+  .edit-mode 
+  .label-li {
     display: none;
   }
