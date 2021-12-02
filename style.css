@@ -121,7 +121,7 @@ body {
     transform: rotateZ(0);
   }
   /* Completed */
-  .label-complete {
+  .done-tasks {
     text-decoration: line-through;
     color: #888;
   }
